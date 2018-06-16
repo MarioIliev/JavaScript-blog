@@ -1,0 +1,37 @@
+<div class="container body-content span=8 offset=2" xmlns="http://www.w3.org/1999/html">
+    <div class="well">
+        <form class="form-horizontal" method="POST" action="/profile/profileChange">
+            <fieldset>
+                <legend>Profile changes</legend>
+
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="favoriteTeam">Favorite team</label>
+                    <div class="col-sm-4 ">
+                        <input type="text" class="form-control" id="favoriteTeam" placeholder="Favorite team"
+                               name="title" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="profilePicture">Profile picture</label>
+                    <div class="col-sm-4 ">
+                        <input type="text" class="form-control" id="profilePicture" placeholder="Picture URL" name="profilePicture" required >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="sumary">Sumary</label>
+                    <div class="col-sm-6">
+                        <textarea class="form-control" id="sumary" rows="5" name="sumary" required></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-4">
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+
+                        <button type="reset" class="btn btn-default">Reset</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
